@@ -90,7 +90,7 @@ const Weather = () => {
 <>
           <Grid className="second_part">
             <Grid>
-              <Typography variant="h3" component="h3">
+              <Typography variant="h3" component="h3" style={{textTransform: "uppercase"}}>
              {search}
               </Typography>
             </Grid>
